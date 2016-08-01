@@ -1,6 +1,6 @@
 addquery
 ========
-**(c)[Bumblehead][0],[JBlashill][6] 2016**
+**(c)[Bumblehead][0] 2016**
 
 a glove for safely adding querystring params to a url, which may or may not alredy include querystring data
 
@@ -9,6 +9,8 @@ addquery('myurl.com', 'hey=now');     // myurl.com?hey=now
 addquery('myurl.com?a=b', 'hey=now'); // myurl.com?a=b&hey=now
 addquery('myurl.com?', 'hey=now');    // myurl.com?hey=now
 ```
+
+[7]: https://raw.githubusercontent.com/iambumblehead/es5classic/master/es5classic_120x120.png
 
 ![scrounge](https://github.com/iambumblehead/scroungejs/raw/master/img/hand.png)[![es5 classic][7]][7] 
 
